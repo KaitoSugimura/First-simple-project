@@ -13,7 +13,7 @@ const Fort = {
     print(){
         for (const Fo in Fort){
             if (typeof(Fort[Fo]) != 'function') {
-                console.log(`Your ${Fo} is ${Fort[Fo]}`)
+                console.log(`Your lucky ${Fo} Today is >>${Fort[Fo]}<<`)
             }
         }
     }
@@ -32,6 +32,6 @@ CF('Fortune', Fortunes)
 CF('Color', Colors)
 CF('Number', number)
 //Update your fortune name here
-CF('Make your own here', MAKEYOUROWNFORTUNE)
+CF('MAKEYOUROWNFORTUNE', MAKEYOUROWNFORTUNE)
 print() //This function simply prints all 
 
